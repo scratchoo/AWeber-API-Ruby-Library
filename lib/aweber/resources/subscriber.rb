@@ -10,7 +10,8 @@ module AWeber
       api_attr :custom_fields, :writable => true
       api_attr :ad_tracking,   :writable => true
       api_attr :last_followup_message_number_sent, :writable => true
-
+      api_attr :tags,          :writable => true
+      
       api_attr :ip_address
       api_attr :is_verified
       api_attr :last_followup_sent_at
